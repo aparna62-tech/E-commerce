@@ -1,0 +1,3 @@
+ShopEase is a simple full-stack e-commerce website made using React, Node.js and Express. Users can browse products, search by name or category, create an account, log in, add products to their cart and place orders. They can also view their previous orders.
+The project does not use any database. Product details, user accounts and orders are stored in JavaScript arrays on the backend, while the cart and login token are saved in the browser's localStorage. Passwords are hashed using bcrypt, and JWT is used for authentication.
+This is a demo project for learning purposes. Since there is no database, user accounts and orders are lost when the backend restarts. Checkout is also a demo and does not involve real payments.
